@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<!-- Opening ah HTML tag -->
+<html lang="en" dir="ltr">
+
+<!-- Opening the head tag -->
+  <head>
+    <meta charset="utf-8">
+
+  <!-- Title of the page -->
+    <title>Homepage</title>
+    <!-- Title image -->
+    <link rel="icon" href="Images/ALU_logo.png" type="image/icon">
+
+    <!-- importing external stylesheet of the all pages -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+
+    <!-- Closing the head tag -->
+  </head>
+
+  <!-- Opening the body section -->
+  <body>
+
+    <!-- Opening the parent div section -->
+    <div id="main">
+
+      <!-- Creating the div for the header section -->
+      <div class="header">
+
+        <!-- Opening the Div which contain the logo -->
+        <div class="alu_logo">
+          <img class = "logo" src ="Images/ALU_logo.png"/>
+        </div>
+
+        <!-- Opening the Div which contain the navigation links -->
+        <div class="menu">
+          <a style = "margin-left:200px;" href = "index.html"> HOME </a>
+          <a href = "#"> ABOUT </a>
+          <a href = "#"> GALLERY </a>
+          <a class = "active" href = "contact.html"> CONTACT </a>
+        </div>
+
+        <!-- Closing the div for the header section -->
+      </div>
+
+      <!-- Opening the Div which contain the background image -->
+    <div class="header_img">
+      <h3 style = "color: white; padding: 70px; margin-left:20%; ">WELCOME TO AFRICAN LEADERSHIP UNIVERSITY MARKET</h3>
+    </div>
+
+    <div class = "display_area">
+      <center>
+      <form class="contact_form" action="index.php" method="POST">
+        <h3>PLEASE CONTACT US HERE</h3>
+        <label><b>Name:</b> <input class = "contact_form_input" type = "text" name="name" placeholder="Enter your full name"/></label>
+        <label><b>Email:</b> <input class = "contact_form_input" type = "text" name="email" placeholder="Enter email"/></label>
+        <label><b>Phone:</b> <input class = "contact_form_input" type = "text" name="phone" placeholder="Enter your phone number"/></label>
+        <label><b>Message:</b> <textarea class="text_area"rows = "5" cols="62"  name="message" placeholder="Please write your message here"></textarea></label>
+        <input class = "button" type="submit" name="submit" value="SEND" />
+
+      </form>
+    </center>
+    </div>
+
+    <div class="footer">
+      <div class="alu_title">
+        <h5> African Leadership University &copy 2019 </h5>
+      </div>
+      <div class="menu_footer">
+        <a href = "index.html"> Home </a>
+        <a href = "#"> About </a>
+        <a href = "#"> Gallery </a>
+        <a href = "contact.html"> Contact </a>
+      </div>
+    </div>
+
+    <!-- Closing the parent div section -->
+    </div>
+
+    <!-- Closing the body section -->
+  </body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>My Dynamic web</title>
+<head>
+</head>
+<body>
+<script>
+
+var player_one = prompt("Play one name: ")
+var player_one_height = prompt("Please Enter your height here in centimenters: ")
+
+if (player_one_height <= 0){
+  alert ("Please use the number different to 0 ")
+}
+var player_one_age = prompt("Please Enter your age here : ")
+
+if (player_one_age <= 0) {
+  alert ("Your age should be positive ")
+}
+
+var player_two = prompt("Player two name: ")
+var player_two_height = prompt("Please Enter your height here in centimenters: ")
+
+if (player_two_age <= 0) {
+  alert ("Please use the number different to 0 ")
+}
+
+var player_two_age = prompt("Please Enter your age here : ")
+
+if (player_two_age <= 0) {
+  alert ("Your age should be positive ")
+}
+
+
+player_one_score = player_one_height + (player_one_age * 5)
+player_two_score = player_two_height + (player_two_age * 5)
+
+
+
+
+if (player_one_score > player_two_score){
+  alert(player_one + " you won the game")
+}
+else {
+  alert(player_two + " you won the game")
+}
+
+
+
+
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,254 @@
+/* CSS style to remove unnecessary free space for padding and margin */
+
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video{
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling all paragraphs for all pages */
+
+p {
+  margin: 20px;
+}
+
+/* Styling all h3 for all pages */
+h3 {
+  padding: 10px;
+}
+/* Styling all h5 in all pages */
+h5 {
+  margin-top: 25px;
+}
+/*Resizing the header section which contains alu logo and navigation bars and display them inline (in a row)*/
+.header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+
+/*resizing alu logo itself*/
+.alu_logo {
+  width: 50%;
+  height: : auto;
+}
+
+/*Positioning and resizing the div with a class called logo*/
+.logo {
+  width: 120px;
+  height: 50px;
+  margin-left: 40px;
+}
+/*Putting margin from top for the div with menu class*/
+.menu {
+  margin-top: 20px;
+  float: right;
+}
+
+/*Removing the line under the text, give text black color as default
+ and make some space from left*/
+
+.menu a {
+  text-decoration: none;
+  margin-left: 30px;
+  color: black;
+}
+
+/*Putting red color on the text when you move the corsor on the link*/
+
+.menu a:hover {
+  color: red;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+/*Activating the home navigation link by red color*/
+
+.menu a.active {
+  color: red;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+/*Activating the home navigation link by red color*/
+
+/* .active {
+  color: red;
+} */
+
+/*Resizing the div which hold the background image and importing the background
+image using css*/
+
+.header_img {
+  margin-top: 0px;
+  width: 100%;
+  height: 150px;
+  background-image: url("../Images/header.jpg");
+  background-size: 100% 150px;
+}
+
+/*Creating the id for the div section and style it which will contain the rest of everything*/
+
+#main_display {
+  margin-top: -20px;
+  width: 100%;
+  height: 1600px;
+  background-color: #d9d9d9;
+}
+
+/*Styling the paragraph class*/
+
+.paragraph {
+  width: 95%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/*Styling all heading classes*/
+
+.heading {
+  width: 96%;
+  height: 40px;
+  margin-top:40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #96B7C2;
+}
+
+/*Increasing the height of the italian_soda class*/
+
+.italian_soda {
+  height: 200px;
+}
+
+/*Resizing all classes named by our_products*/
+
+.our_products {
+  width: 100%;
+  height: 430px;
+}
+
+/*Resizing the div with products class and making all other div inside to be in one row*/
+
+.products {
+  width: 95%;
+  height: 300px;
+  display: flex;
+  margin-left: 20px;
+}
+
+/*Resizing products_img class with the margin of 20px all sides*/
+.products_img {
+  margin: 20px;
+  width: 50%;
+  height: 300px;
+}
+
+/*Resizing latest_products class with a full width and specific height*/
+
+.latest_products {
+  width: 100%;
+  height: 250px;
+}
+
+/*Resizing the parent class which holding the other classes such as heading,
+products, and products_img*/
+.new_products {
+  width: 100%;
+  height: 500px;
+}
+
+/*This class is used to make the div in it to display inline*/
+.products_hire {
+  width: 100%;
+  height: 250px;
+  display: flex;
+}
+
+/*Resizing the image and give it the free space from top*/
+.hire_img {
+  width: 250px;
+  height: 250px;
+  margin-top: -15px;
+}
+
+/*Creating new id for the read more links and customize it*/
+#nav_link {
+  width: 120px;
+  height: 30px;
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+  margin: 4px;
+}
+
+/*New styles by moving the cursor to the link*/
+
+#nav_link:hover {
+  width: 120px;
+  height: 30px;
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+  margin: 4px;
+  background-color: black;
+}
+
+/*Creating a class and removing the line under text with a color and margin from top*/
+.read_more {
+  margin-top: 10px;
+  text-decoration: none;
+  color: rgb(0, 147, 187);
+}
+
+/*Creating new id for a particular pagraph and push it 70px away from left*/
+#hire_desc {
+  margin-top: 70px;
+}
+
+
+/*Resizing this particular div with its own class*/
+.hire_our_products {
+  width: 100%;
+  height: 300px;
+}
+
+/*Styling footer section*/
+.footer {
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  display: flex;
+}
+
+/*Resizing the div containing the copyright section*/
+
+.alu_title {
+  width: 50%;
+  height: 40px;
+}
+
+/*Styling h5 heading*/
+.alu_title h5 {
+  color: white;
+  margin-left: 40px;
+}
+
+/*Resizing the div containing the footer links*/
+.menu_footer {
+  width: 50%;
+  height: 40px;
+  margin-top: 25px;
+}
+
+/*Styling the links themselves*/
+.menu_footer a {
+  color: white;
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+/*Styling the footer links with red color by moving the cursor on them*/
+.menu_footer a:hover {
+  color: red;
+  text-decoration: none;
+}
